@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Web3Solana/static/css/main.412abde4.chunk.css",
+    "main.js": "/Web3Solana/static/js/main.b89f12d8.chunk.js",
+    "main.js.map": "/Web3Solana/static/js/main.b89f12d8.chunk.js.map",
+    "runtime-main.js": "/Web3Solana/static/js/runtime-main.7afa8661.js",
+    "runtime-main.js.map": "/Web3Solana/static/js/runtime-main.7afa8661.js.map",
+    "static/js/2.29ff0877.chunk.js": "/Web3Solana/static/js/2.29ff0877.chunk.js",
+    "static/js/2.29ff0877.chunk.js.map": "/Web3Solana/static/js/2.29ff0877.chunk.js.map",
+    "index.html": "/Web3Solana/index.html",
+    "static/css/main.412abde4.chunk.css.map": "/Web3Solana/static/css/main.412abde4.chunk.css.map",
+    "static/js/2.29ff0877.chunk.js.LICENSE.txt": "/Web3Solana/static/js/2.29ff0877.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7afa8661.js",
+    "static/js/2.29ff0877.chunk.js",
+    "static/css/main.412abde4.chunk.css",
+    "static/js/main.b89f12d8.chunk.js"
+  ]
+}
