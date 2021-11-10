@@ -1,0 +1,110 @@
+{
+  "version": "0.0.0",
+  "name": "testproject",
+  "instructions": [
+    {
+      "name": "startStuffOff",
+      "accounts": [
+        {
+          "name": "baseAccount",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "user",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "createGif",
+      "accounts": [
+        {
+          "name": "baseAccount",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "gifLink",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "voteGif",
+      "accounts": [
+        {
+          "name": "baseAccount",
+          "isMut": true,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "gifId",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "BaseAccount",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "totalGifs",
+            "type": "u32"
+          },
+          {
+            "name": "gifList",
+            "type": {
+              "vec": {
+                "defined": "ItemStruct"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "ItemStruct",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "gifId",
+            "type": "u32"
+          },
+          {
+            "name": "gifLink",
+            "type": "string"
+          },
+          {
+            "name": "userAddress",
+            "type": "publicKey"
+          },
+          {
+            "name": "votes",
+            "type": "i32"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "address": "7K94pmu3KUrK4gRoVmURCFEEJGMKeTsJ8wJquqjDu9um"
+  }
+}
